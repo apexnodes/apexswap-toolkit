@@ -16,17 +16,6 @@ const Wrapper = styled.div`
   width: 100%;
 `;
 
-const rainbowBorderAnimation = keyframes`
-  0% {border-color: hsl(0, 100%, 50%);}
-  14% {border-color: hsl(30,100%,50%);}
-  28% {border-color: hsl(60,100%,50%);}
-  42% {border-color: hsl(120,100%,50%);}
-  56% {border-color:  hsl(240,100%,50%);}
-  70% {border-color: hsl(280,100%,50%);}
-  84% {border-color: hsl(320,100%,50%);}
-  100% {border-color: hsl(255, 100%, 50%);}
-`;
-
 const StyledNav = styled.nav<{ showMenu: boolean }>`
   position: fixed;
   top: ${({ showMenu }) => (showMenu ? 0 : `-${MENU_HEIGHT}px`)};
@@ -39,9 +28,7 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   padding-right: 16px;
   width: 100%;
   height: ${MENU_HEIGHT}px;
-  background-color: ${({ theme }) => theme.nav.background};
-  border-bottom: solid 3px hsl(0, 100%, 50%);
-  animation: ${rainbowBorderAnimation} 10s ease-in-out infinite alternate;
+  background-color: transparent;
   z-index: 20;
   transform: translate3d(0, 0, 0);
 `;

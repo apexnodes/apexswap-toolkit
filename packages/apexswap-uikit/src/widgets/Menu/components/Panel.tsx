@@ -19,18 +19,16 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-direction: column;
   justify-content: space-between;
   flex-shrink: 0;
-  background-color: ${({ theme }) => theme.nav.background};
+  background-color: transparent;
   width: ${({ isPushed }) => (isPushed ? `${SIDEBAR_WIDTH_FULL}px` : 0)};
   height: 100vh;
   transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  border-right: ${({ isPushed, theme }) => (isPushed ? `2px solid ${theme.colors.panelBorder}` : 0)};
   z-index: 11;
   overflow: ${({ isPushed }) => (isPushed ? "initial" : "hidden")};
   transform: translate3d(0, 0, 0);
   ${({ isPushed }) => !isPushed && "white-space: nowrap;"};
 
   ${({ theme }) => theme.mediaQueries.nav} {
-    border-right: 2px solid ${({ theme }) => theme.colors.panelBorder};
     width: ${({ isPushed }) => `${isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED}px`};
   }
 `;
