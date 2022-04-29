@@ -1,6 +1,6 @@
 {
   "name": "@apexswap/uikit",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "description": "Set of UI components for ApexSwap projects forked from pancake",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
