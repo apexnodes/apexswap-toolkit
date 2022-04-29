@@ -1,20 +1,20 @@
 {
-  "name": "cityswap-toolkit",
+  "name": "apexswap-toolkit",
   "version": "1.0.0",
-  "description": "CitySwap frontend packages",
+  "description": "Apexswap frontend packages",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/city-prefect/cityswap-toolkit.git"
+    "url": "git+https://github.com/apexnodes/apexswap-toolkit.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/city-prefect/cityswap-toolkit/issues"
+    "url": "https://github.com/apexnodes/apexswap-toolkit/issues"
   },
-  "homepage": "https://github.com/city-prefect/cityswap-toolkit/i#readme",
+  "homepage": "https://github.com/apexnodes/apexswap-toolkit/i#readme",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
