@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.40](https://github.com/city-prefect/cityswap-toolkit/tree/master/packages/pancake-uikit/compare/@apexswap/uikit@0.0.39...@apexswap/uikit@0.0.40) (2022-04-29)
+
+**Note:** Version bump only for package @apexswap/uikit
+
+
+
+
+
 ## 0.0.39 (2022-04-29)
 
 **Note:** Version bump only for package @apexswap/uikit
@@ -724,6 +732,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **modal:** Change modal min width to 320px ([#60](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/60)) ([f09ade9](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/f09ade9f149d6793404c86829a728b4f1ba7b93a))
 * Accordion menu stuck at active state ([#57](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/57)) ([f9f5162](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/f9f5162f269a27b375943db4b87850c6d8998d3d))
 * React dom failure when passing unknown props to child component ([#49](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/49)) ([e3c0272](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/e3c02729bb5c1391d6179a7da6c38bdee6f741bf))
-
-
-
