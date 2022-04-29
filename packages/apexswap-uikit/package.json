@@ -1,7 +1,7 @@
 {
-  "name": "@cityswap/uikit",
+  "name": "@apexswap/uikit",
   "version": "0.0.38",
-  "description": "Set of UI components for cityswap projects forked from pancake",
+  "description": "Set of UI components for ApexSwap projects forked from pancake",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
