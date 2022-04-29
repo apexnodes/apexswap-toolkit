@@ -38,7 +38,7 @@ export const lightColors: Colors = {
   input: "#eeeaf4",
   inputSecondary: additionalColors.apexDark,
   tertiary: "#EFF4F5",
-  text: additionalColors.white,
+  text: additionalColors.apexDark,
   textDisabled: "#BDC2C4",
   textSubtle: additionalColors.apexDark,
   disabled: "#E9EAEB",
