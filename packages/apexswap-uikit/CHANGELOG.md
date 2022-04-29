@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.46](https://github.com/city-prefect/cityswap-toolkit/tree/master/packages/pancake-uikit/compare/@apexswap/uikit@0.0.45...@apexswap/uikit@0.0.46) (2022-04-29)
+
+**Note:** Version bump only for package @apexswap/uikit
+
+
+
+
+
 ## [0.0.45](https://github.com/city-prefect/cityswap-toolkit/tree/master/packages/pancake-uikit/compare/@apexswap/uikit@0.0.44...@apexswap/uikit@0.0.45) (2022-04-29)
 
 **Note:** Version bump only for package @apexswap/uikit
