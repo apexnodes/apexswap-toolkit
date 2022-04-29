@@ -57,6 +57,7 @@ export type Colors = {
   background: string;
   backgroundDisabled: string;
   backgroundAlt: string;
+  backgroundAlt2: string;
   text: string;
   textDisabled: string;
   textSubtle: string;
@@ -66,12 +67,18 @@ export type Colors = {
   // Gradients
   gradients: Gradients;
 
+  // Cityswap colors
+  cardBackground: string,
   // Additional colors
   binance: string;
   overlay: string;
-
-  // Cityswap colors
-  cardBackground: string,
+  gold: string;
+  silver: string;
+  bronze: string;
+  white: string;
+  dark: string;
+  apexLight:string;
+  apexDark:string;
 };
 
 export type ZIndices = {
